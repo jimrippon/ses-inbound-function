@@ -1,0 +1,16 @@
+{
+   "Records": [
+      {
+        "eventSource": "aws:ses",
+        "eventVersion": "1.0",
+        "ses": {
+           "receipt": {
+               <same contents as SNS notification>
+            },
+           "mail": {
+               <same contents as SNS notification>
+           }
+         }
+     }
+   ]
+}
